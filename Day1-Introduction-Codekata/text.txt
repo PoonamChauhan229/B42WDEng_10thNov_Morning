@@ -1,0 +1,134 @@
+Extensions to create the File:
+html:.html
+js:.js
+css:.css
+
+
+Javascript:
+create a File
+save=>.js
+
+Javascript:
+To program the behavior of the webpage
+
+Application:
+1-interactive websites
+2-Validation Errors(Client side Validation)
+3-Foe popsups
+4-Display time 
+5-calculation
+
+3 places where you can out this files
+
+
+comments in js
+
+Single line comments=//
+Multiline comments=
+/*hjkl;
+fghjk
+rtyuiodfghjk8*/
+shortcut->Ctrl/
+
+var:
+declare the variable
+memory location to store
+global scope variable and functional scope**********
+declaring a variable in single line (var a=50,b=60)
+we can modify the value
+we can declare and update the value n no of times************
+
+let:
+similar to var
+block scope {}
+it cannot be used outside the block, but if we decalre in a global scope-we can access it
+it update the value
+if we use it , without declartion-let.html:18 Uncaught ReferenceError:not defined
+cannot be declared
+
+const=>constant
+
+
+Arithmetic
++ =>Addition
+- =>Subraction
+* =>Multiplication
+** =>Exponentail(Power of)
+/ =>Division(Quotient)
+% =>Modulus(Remainder)
+++ =>Increment(1++=2)
+-- =>Decrement
+
+assignment
+=
+a=5;b;
+a=b
+
++=
+x,y
+x+=y => x=x+y;
+
+-=
+x-=y =>x=x-y
+
+comparision operators:
+==(matches value)
+5=="5"(true)
+
+===(match value+datatype)(identical)(strict)
+5==="5"
+num=string
+
+>=
+<=
+
+Logical Operators
+&&(AND)(all are important to me)
+||(OR)(Above enter, along with shift)(optional)
+!(NOT)
+
+
+let x=6;
+
+let y=3
+
+(x<10 && y>1)
+true
+(x<10 && y<1)
+false
+(x<10 || y<1)
+true
+(x==10 || y<1)
+false
+
+(x===y)
+false
+!(x===y)
+true
+(x===y)
+false
+!(x===y)
+true
+
+
+
+Conditions:
+if statement// condition is true
+if else statement// condition true /false
+if else if statement// mutliple condition
+
+if statement
+
+if(Condition){
+ //code to be executed   
+}
+
+if else statement// condition true /false
+if(Condition){
+    //true
+}else{
+    //false
+}
+
+
+typeof()=>check the datatype:
