@@ -1,0 +1,145 @@
+https://www.guvi.in/
+
+Array Methods:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+array=[10,11,12,13,14,15,"abc","guvi",12,"12",true]=>group of elements=> combination of any datatype
+array with 0 index
+10=>0th index elements
+11=>1st index
+12=>2nd index
+go on 
+
+codekata:
+Input: certain values given by the user
+Output:after execution of code=>final answer.
+
+// Getting input via STDIN
+const readline = require("readline");
+
+const inp = readline.createInterface({
+  input: process.stdin
+});
+
+const userInput = [];
+
+inp.on("line", (data) => {
+  userInput.push(data);
+});
+
+inp.on("close", () => {
+  //start-here
+
+  //Your code goes here … replace the below line with your code logic 
+------
+  console.log(userInput);
+
+  //end-here
+});
+
+userInput: array of strings.
+
+
+var a="2"
+undefined
+typeof(a)
+'string'
+parseInt(a)
+2
+var b=parseInt(a)
+undefined
+b
+2
+typeof(b)
+'number'
+var c=Number(a)
+undefined
+c
+2
+typeof(c)
+'number'
+
+Guvi Ide:Explaination
+// Getting input via STDIN
+const readline = require("readline");
+
+const inp = readline.createInterface({
+  input: process.stdin
+});
+
+const userInput = [];
+
+inp.on("line", (data) => {
+  userInput.push(data);
+});
+
+inp.on("close", () => {
+  //start-here
+  //Your code goes here … replace the below line with your code logic 
+
+  console.log(userInput);
+  console.log(userInput[0]);
+  
+//   forloop
+
+for(let i=0;i<userInput.length;i++){
+    console.log(userInput[i])
+}
+  
+  
+
+  //end-here
+});
+
+Split and join 
+
+arr=["guvi"]
+['guvi']
+var b=arr.split("")
+VM221:1 Uncaught TypeError: arr.split is not a function
+    at <anonymous>:1:11
+(anonymous) @ VM221:1
+var b=arr[0].split("")
+undefined
+b
+(4) ['g', 'u', 'v', 'i']
+a=5
+5
+c=["g","u","v","i"]
+(4) ['g', 'u', 'v', 'i']
+c
+(4) ['g', 'u', 'v', 'i']
+typeof(c)
+'object'
+arr2=["g u v i"]
+['g u v i']
+var x=arr2[0].split(" ")
+undefined
+x
+(4) ['g', 'u', 'v', 'i']
+arr3=["g,u,,v,i"]
+['g,u,,v,i']
+var y=arr3[0].split(",")
+undefined
+y
+(5) ['g', 'u', '', 'v', 'i']
+var s=b.join(",")
+undefined
+s
+'g,u,v,i'
+var q=x.join(" ")
+undefined
+q
+'g u v i'
+typeof(q)
+'string'
+
+
+// console.log(userInput[0].split(" ").join(" "))
+
+var x=userInput//store an array
+console.log(x)
+var y=x[0].split(" ")//spliting
+console.log(y)
+var z=y.join(" ")//joining
+console.log(z)
