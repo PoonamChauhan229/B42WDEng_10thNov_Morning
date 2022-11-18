@@ -143,3 +143,138 @@ var y=x[0].split(" ")//spliting
 console.log(y)
 var z=y.join(" ")//joining
 console.log(z)
+
+
+
+patterns:
+righttraingle pattern
+*
+**
+***
+****
+*****
+
+i j(printing star)
+1 1(i)
+2 2(i)
+3 3(i)
+4 4(i)
+5 5(i)
+Input:userInput=5
+for loop:
+console.log("*")
+
+square pattern
+Input:userInput=5
+1*****=>5
+2*****=>5
+3*****=>5
+4*****=>5
+5*****=>5
+
+col=>
+row=>5
+1
+2
+3
+4
+5
+
+var string=""
+for( let i=1;i<=5;i++){//5 times 
+//console.log(i)
+  for(let j=1;j<=5;j++)//5 times
+  {
+    string=string+"*"//****************************=>25 times
+  }
+  string+="\n"
+}
+console.log(string)
+
+
+Another way:
+let n=userInput[0]
+pattern=""
+for(i=1;i<=n;i++){
+    pattern+="*"
+    console.log(pattern)
+}
+
+Printed(j)
+1
+12
+123
+1234
+12345
+
+string=""
+string=string+ j
+
+i=1
+j=1
+string="1"
+
+i=2
+internal loop=>j
+j=1 j=2
+string="12"=> trerminate(j<=i)
+next line
+i=3
+j=1 j=2 j=3
+string="123"
+
+i=4
+j=1 j=2 j=3 j=4
+string="1234"
+
+
+1
+12
+123
+1234
+12345
+
+(i value)
+1
+22
+333
+4444
+55555
+
+Downward Triangle Star Pattern
+
+*****
+****
+***
+**
+*
+n=5;
+for(i=userInput[0];i>=1;i--){
+  var result=""
+  for(j=1;j<=i;j++){
+    result+="*"
+  }
+  console.log(result)
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
