@@ -1,0 +1,56 @@
+Javascript:
+Module1:
+Introduction to Javascript
+
+Module2:
+HTML CSS Bootstrap=>Webkata
+
+Module3:
+DOM Manipulation
+
+Module4:(Advanced JS)
+Async Await callback promises
+
+Assesment/Task:
+
+Webcode 
+Mock Interview
+
+___________After Evaluation_______________________________
+React:
+
+
+From Today onwards,completing the task on a daily basis+ 3-5 probelms of codekata.
+
+PPT:
+
+Create the accounts
+
+https://github.com/
+
+https://www.netlify.com/
+
+
+HTTP Return codes
+
+1XX(100-199)>Hold on =>Processing stage=>Informational Purpose
+
+2XX(200-299)>Sucess=>Successfully Retrived and viewed in UI
+
+3XX(300-399)>Redirecting
+
+4XX(400-499)>Client Screwed Up
+
+5XX(500-599)>Server Screwed Up
+
+
+More in Detail: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+
+HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes:
+
+Informational responses (100 – 199)
+Successful responses (200 – 299)
+Redirection messages (300 – 399)
+Client error responses (400 – 499)
+Server error responses (500 – 599)
