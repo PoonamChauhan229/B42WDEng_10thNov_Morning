@@ -1,0 +1,34 @@
+Declare four variables without assigning values and print them in console
+
+How to get value of the variable myvar as output
+var myvar= 1;
+
+
+3. Declare variables to store your first name, last name, marital status, country and age in multiple lines
+
+4. Declare variables to store your first name, last name, marital status, country and age in a single line
+
+5. Declare variables and assign string, boolean, undefined and null data types
+
+
+
+Arrays:
+Find the length of your foods array
+— — — — — — — — — — — — — — — -
+Starting from the existing friends variable below, change the element that is currently “Mari” to “Munnabai”.
+
+let friends = [
+“Mari”,
+“MaryJane”,
+“CaptianAmerica”,
+“Munnabai”,
+“Jeff”,
+“AAK chandran”
+];
+
+Object:
+
+const car = {type:"Fiat", model:"500", color:"white"};
+Find the length of the object
+Insert an new key and value pair of your choice
+

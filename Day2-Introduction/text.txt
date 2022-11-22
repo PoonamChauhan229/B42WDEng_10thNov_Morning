@@ -1,0 +1,138 @@
+Datatypes:
+1.Primitive Datatypes
+2.Composite Datatypes
+3.Trivial Datatypes
+
+1.Primitive Datatypes:
+Inbuilt Datatypes
+>Number
+>String
+>Boolean 
+
+Js is a weakly type language:
+
+var a=20;
+console.log(a)=>20
+a=30;
+console.log(a)=>30
+
+In Java,
+int a=35
+a=65;
+i cant reassign the value.
+
+
+Number:
+a=35.5
+35.5
+typeof(a)=> return the Datatype of that variable.
+'number'
+
+String:=>inside the double quotes or the single quotes.
+var str="Hello"
+var str="Hello"
+undefined
+str
+'Hello'
+typeof(str)
+'string'
+var str="Hello , i am Poonam -B42 Mentor"
+typeof(str)
+'string'
+
+Boolean:
+true and false
+
+var a="true"
+undefined
+typeof(a)
+'string'
+var a=false
+undefined
+a
+false
+typeof(a)
+'boolean'
+
+
+Composite Datatype:
+
+array,object:
+
+Array:
+>[]
+>Arrays are treated like an object
+>we can store hetrogenous Datatype
+>Combination of Datatypes
+>Start Index=0
+>End Index=(n-1)
+>.length menthod=> Calculate the length
+var arr=[1,2,3,4,"hello","hi",true]
+arr[100]="arraylist">> inserting 
+
+console.log(arr.length)
+
+
+
+Object:
+
+Car:
+model:100
+fueltype:petrol
+color:red
+mileage:xxx
+name:xxx
+weight:xxx
+
+>{}
+>key:value
+var car={
+    type:"Fiat",
+    model:500,
+    color:"white"
+}
+
+var car={
+    type:"Fiat",
+    model:500,
+    color:"white"
+}
+undefined
+car
+{type: 'Fiat', model: 500, color: 'white'}color: "white"model: 500type: "Fiat"[[Prototype]]: Object
+var arr = [2, 3, 4, 5, 6, 7, 8, 9, 10]
+undefined
+arr
+(9) [2, 3, 4, 5, 6, 7, 8, 9, 10]0: 21: 32: 43: 54: 65: 76: 87: 98: 10length: 9[[Prototype]]: Array(0)
+typeof(arr)
+'object'
+typeof(car)
+'object'
+
+Trivial Datatypes:
+null =>special value that represents an empty.
+var a=null
+console.log(a)
+
+undefined
+indicates that a variable has not been assigned a value.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var obj={
+            "n ame":"Abhisekh",
+            age:20,
+            day:"Tuesday",
+            marks:[56,78]
+        }
+        console.log(obj)
+
+        // by . dot operator
+
+        console.log(obj.age)
+        //by [" "]
+        console.log(obj["n ame"])
+
+        // array
+        console.log(obj.marks[0])
+
+        // insert in an object
+        obj.gender="male"
+        console.log(obj)
+
+        // insert an object
+
+        obj.user={a:"guvi",b:"ide"}
+        console.log(obj)
+
+        console.log(obj.user.a)
+
+        // length of an object:
+        // .length menthod XXXXXXXXXXXX
+        console.log(obj.length)
+
+        console.log(Object.keys(obj))//all the keys in the form an array
+
+        console.log(Object.keys(obj).length)
+
+        console.log(Object.values(obj))
+        console.log(Object.values(obj).length)
+        
+        // 
+        obj.day="Wednesday"
+        console.log(obj)
+
+        obj.gender="female"
+        console.log(obj)
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
