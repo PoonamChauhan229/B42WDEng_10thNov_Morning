@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Callby value_reference</title>
+</head>
+<body>
+    <script>
+        // call by value
+        var a=5;
+        var b=a;
+        a=30;
+        console.log(a,b)
+
+        // a=b=5
+        // a=5
+        // b=5
+
+        // call by reference
+        var arr=[1,2,4]
+        arr1=arr
+        // arr[2]="guvi"
+        console.log(arr1)
+        console.log(arr)
+        window.console.log(1)
+
+    </script>
+</body>
+</html>

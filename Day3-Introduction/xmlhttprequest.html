@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Step1: To create an XHR object
+        // interact with the server via API
+        // new keyword
+        var request= new XMLHttpRequest();
+        console.log(request)
+
+        // Step2:Opening an Connection
+        // 3parametsers=>method,url,true(optional parameter)
+        request.open('GET','https://restcountries.com/v3.1/all')
+        console.log( request.open('GET','https://restcountries.com/v3.1/all'))
+
+        // Step3: Initiation of our bridge||sending an connection||sending the request
+       request.send()
+
+        // Step4:server response
+        // onload is an event
+        // Annoymous function
+        // response
+        request.onload=function(){
+            var data=request.response
+            console.log(data)
+            console.log(JSON.parse(data))
+            var res=JSON.parse(data)
+            console.log(res[0].area)
+            console.log(res[0].name.common)
+
+            // get all the 250 areas in the console.
+
+            // for loop
+            for(i=0;i<res.length;i++){
+                // console.log(res[i].area)
+            }
+            // for of loop=> obj
+            for(var obj of res){
+                // console.log(obj.area)
+            }
+            // for in loop
+            for( var index in res){
+                console.log(res[index].area)
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+    </script>
+</body>
+</html>

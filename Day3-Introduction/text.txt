@@ -1,0 +1,120 @@
+Call by value:
+Primitive Datatypes
+
+
+Call by reference:
+Composite Datatypes
+
+
+Window and document object:
+
+Document object:(DOM)
+Syntax:
+document.property_name
+
+document.head
+document.body
+document.title
+
+Methods:
+document.getElementById()
+document.getElementsByClassName() etc........
+
+
+Window object:
+
+Property:
+window.property_name
+innerHeight:
+innerWidth
+Length:
+console:
+
+Methods:
+window.alert("hi")
+window.open()
+window.close()
+few more are more ...........
+
+JSON:
+Javascript Object Notation
+
+{
+    "key":"value"
+}
+
+JSON Arrays:
+Arrays of object|| json array of objects
+[{
+    "name":"Poonam",
+    "location:"mumbai",
+    "veg":"yes"
+},
+{
+    "name":"Abhisek",
+    "location:"chennai",
+    "veg":"no"
+},
+{
+    "name":"sathya",
+    "location:"tamilnadu",
+    "veg":"yes"
+}
+]
+
+Methods:
+JSON.parse()=> object
+
+JSON.stringify()
+
+var obj={name:"xyz",age:45,city:"NewYork"}
+undefined
+JSON.stringify(obj)
+'{"name":"xyz","age":45,"city":"NewYork"}'
+typeof(JSON.stringify(obj))
+       
+'string'
+let text = '{ "employees" : [' +
+'{ "firstName":"John" , "lastName":"Doe" },' +
+'{ "firstName":"Anna" , "lastName":"Smith" },' +
+'{ "firstName":"Peter" , "lastName":"Jones" } ]}';
+undefined
+typeof(text)
+'string'
+JSON.parse(text)
+{employees: Array(3)}
+employees
+: 
+Array(3)
+0
+: 
+{firstName: 'John', lastName: 'Doe'}
+1
+: 
+{firstName: 'Anna', lastName: 'Smith'}
+2
+: 
+{firstName: 'Peter', lastName: 'Jones'}
+length
+: 
+3
+[[Prototype]]
+: 
+Array(0)
+[[Prototype]]
+: 
+Object
+
+
+API:
+Application Programming Interface
+
+
+Hoisting:
+ a varaible can be declared after it has been used
+
+ Its an developer error, which is not gettig identified.
+ so thats the reason, let and const were introduced.
+
+
+
