@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- sum of all the array -->
+    
+
+    <script>
+        // var arr=[1,2,3,4,5,6]
+        function sumnormal(arr){
+            var total=0;
+            // for of
+            for(var val of arr){
+                total=total+val
+            }
+            return total
+        }
+        console.log(sumnormal([1,2,3,4,5,6]))
+
+        // Annoymous function
+        var sumannoymous=function(arr){
+            var total=0;
+            // for in loop
+            for(var index in arr){
+                total=total+arr[index]
+            }
+            return total
+        }
+        console.log(sumannoymous([1,2,3,4,5,6]))
+
+        // arrow functions:
+
+        var sumarrow=(arr)=>{
+            var total=0;
+            // for in loop
+            for(var index in arr){
+                total=total+arr[index]
+            }
+            return total
+        }
+        console.log(sumarrow([1,2,3,4,5,6]))
+
+        // iife function
+       var sumiife= (
+            function(arr){
+                var total=0;
+                for(var index in arr){
+                total=total+arr[index]
+            }
+            return total
+        }            
+        )([1,2,3,4,5,6]);
+        console.log(sumiife)
+    </script>
+
+</body>
+</html>

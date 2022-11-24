@@ -1,0 +1,46 @@
+<!-- 
+    JS function to get 1st element of an array 
+    Passsing a parameter n will return the first n elements of array
+    
+    Input([7,9,0,-2])
+    O/P=>7
+
+    Input([0,6,4,5])
+    O/P=>0
+
+    Input([1,2,3,4],3)
+    O/P=>[1,2,3]
+
+     Input([1,2,3,4],-3)
+    O/P=>[]
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <script>
+        function compute(arr,n){
+            if(n==null){
+                return arr[0]
+            }
+            else if(n<0){
+                return []
+            }
+            else{
+                return arr.slice(0,n)
+            }
+        }
+        console.log(compute([7,9,0,-2]))
+        console.log(compute([0,6,4,5]))
+        console.log(compute([1,2,3,4],-3))
+        console.log(compute([1,2,3,4],3))
+
+        // slice method
+    </script>
+ </body>
+ </html>

@@ -1,0 +1,72 @@
+Functions:
+repetition
+eg: Run command in GUvi IDE
+
+syntax:
+
+function functionName(){
+    //block of code
+} 
+
+functionName()//calling a function=> execution of function
+
+//add 2 nos.
+function calculate(){
+    var result=2+3
+    console.log(result)
+}
+calculate()
+
+
+with return keyword
+
+
+Function with parameters:
+function functionName(para1,par2,para3){
+    //block of code
+} 
+functionName(x,y,z)//calling a function=> execution of function=>arguments
+
+calling or invoked, we ahve to pass the arguments to it
+
+
+Annonymous function:
+ var variablename=function(){
+    //block of code
+ }
+ variablename()
+
+ for global event handlers
+
+Arrow functions:
+shorthand
+variablename=()=>{
+    //block of code
+}
+variablename()
+ if it is a single line, no need of return statement
+ mulitple lines, we need it
+
+
+ IIFE=Immedieately Invoked Function Expression
+ ()=>Grouping operator
+ ()=> Immediately invoked
+
+(
+
+)();
+
+forEach
+
+var arr=[1,2,3,4,5,6]
+arr.forEach(function)
+function function(item,index){
+
+}
+
+
+var total=0;
+arr.forEach(sum)
+function sum(item){
+    total+=item;
+}

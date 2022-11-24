@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function calculate() {
+        var result = 2 + 3;
+        console.log(result);
+      }
+      calculate();
+      calculate();
+      calculate();
+      calculate();
+
+    //   
+
+    function add() {
+        var result = 2 + 23;
+        return result;
+      }
+      add();//not accessible
+      console.log(add())//not accessible
+
+    //   return should be the last line
+      function add1() {
+        var result = 12 + 3;
+        console.log(1)
+        return 0;
+      
+      }
+      add1();//not accessible
+      console.log(add1())
+    </script>
+  </body>
+</html>

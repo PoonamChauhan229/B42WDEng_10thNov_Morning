@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var total = 0;
+
+      arr=[1,2,3,4,5]
+      
+      arr.forEach(sum);
+      
+      function sum(item,index) {
+        console.log(item,index)        
+      }
+
+    //   console.log(arr)
+    arr.forEach(myFunction)
+    function myFunction(item){
+        total=total+item        
+    }
+    console.log(total)
+
+
+    // for Each
+
+    let students=["John","sara","Jones"]
+    students.forEach(randomUser)
+    function randomUser(item,index,arr){
+        // console.log(arr)
+        // console.log(item)
+        // console.log(index)
+        arr[index]="Hello "+item 
+    }
+    console.log(students)
+
+
+    </script>
+  </body>
+</html>
