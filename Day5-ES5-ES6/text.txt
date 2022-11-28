@@ -1,0 +1,39 @@
+ES5-ES6:
+trademarked by ECMA international 
+
+ES5=>fifth edition
+ECMASCRIPT 2009
+define /declare the variable , we had only var keyword
+it has a lower performance as compared with ES6
+Object Manipulation takes time/ time consuming
+
+Note: It has a large community supports 
+
+
+ES6
+ECMASCRIPT 2015
+let const keyword to declare /define the variables
+higher performance
+Arrow function
+sixth edition
+Object Manipulation takes less time than ES5.
+
+
+template literals:
+
+Destructuring:
+Array and Object:
+Unpackaging of arrays and object
+
+Object shorthand Property:
+
+
+Spread Operator:
+...
+array=> expand all your elements
+
+Rest Operator
+...
+rest paramater 
+to accept indefinte number of arguments
+function f1(a,b,c,...args)

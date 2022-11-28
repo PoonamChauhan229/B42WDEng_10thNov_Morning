@@ -1,0 +1,121 @@
+OOPS:
+Object Oriented Programming
+JS has inherited some features from JAVA.
+
+features/concepts
+Object:Real time entity
+Class: class is nothing but the template of object
+Methods:It used to communicate between the objects:
+
+Classes:
+
+How to create Classes:
+class keyword
+
+Syntax:
+class Classname{
+
+} 
+class will have it own properties and methods:
+
+Classname as Car:
+
+class Car{
+
+}
+Car will have certain properties: Touch and feel
+color
+name
+model
+weight
+mileage
+fuel type
+car origin
+seats
+engine type
+electric/non electrical
+//safety measures
+price
+stearing type
+launch year
+transmission model
+AC/NonAC
+
+
+Call: instance of the class=>creating an object
+
+Syntax:
+var abc=new Classname();
+//abc=>reference variable
+
+var xyz=new Car();
+
+
+
+function xyz(){
+    //block of code
+}
+xyz()
+xyz()
+xyz()
+abc()// throw => not defined
+
+
+Constructors:
+special way of assigning the values to the object
+declared with a Constructor keyword
+using this itself we can assign the values in class
+
+Syntax:
+class Car{
+    constructor(a,b,c){
+              this.a=a
+              this.b=b
+              this.c=c
+
+    }
+}
+
+var w1=new Car(12,13,45)
+var w2=new Car(34,56,78)
+
+this: imaginary reference variable, which is pointed alongwith the reference variable to the same object.
+
+Methods:
+//function
+function getSum(a,b,c){
+    console.log(a+b+c)
+}
+getSum()
+
+
+Syntax:
+class Car{
+    constructor(a,b,c){
+              this.a=a
+              this.b=b
+              this.c=c
+    }
+    getSum(){//Method
+        //block of code for execution
+    }
+}
+
+var w1=new Car(12,13,45)
+var w2=new Car(34,56,78)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
