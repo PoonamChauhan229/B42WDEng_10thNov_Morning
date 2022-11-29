@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var arr=[1,2,3,4,5]
+        var result=arr.map((element)=>element*2)
+        console.log(result)
+        //even
+        var result1=result.filter((element)=>element%2==0)
+        console.log(result1)
+        //reduce
+        var result2=result1.reduce((acc,element)=>acc+element,0)
+        console.log(result2)
+
+        // all 3 methods together
+        var finalresult=arr.map((element)=>element*2).filter((element)=>element%2==0).reduce((acc,element)=>acc+element,0)
+        console.log(finalresult)
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var arr=[1,2,3,4]
+
+        
+        var result=arr.map((element,index)=>{
+             console.log(element+index)
+            //  console.log(index)
+        })
+
+
+     var result1=arr.map((element)=>element*2)
+     console.log(result1)
+
+
+
+     var arr=["1t","2y","3o"]
+    //  o/p=>2,4,6
+     var result2=arr.map((element)=>parseInt(element)*2)
+     console.log(result2)
+
+     var numbers=[1,4,9]
+    //  sqrt=>[1,2,3]
+    var roots=numbers.map((element)=>Math.sqrt(element))
+    console.log(roots)
+
+
+    
+
+
+
+
+
+    </script>
+</body>
+</html>

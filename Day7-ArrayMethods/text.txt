@@ -1,0 +1,50 @@
+Array Methods:
+Map
+Reduce
+Filter
+
+Array:[]
+
+Map:
+transform an Array
+return a new Array
+it works on ecah and every element
+function as a parameter
+index is the optional parameter
+
+
+var arr=[1,2,3,4]
+o/p=>[2,4,6,8]=> every element is multiplied by 2 
+
+arrayName.map(
+    (element,index)=>{}
+    
+    )
+
+
+Old Method => using for loop
+var arr=[1,2,3,4]
+o/p=>[2,4,6,8]=> every element is multiplied by 2 
+1-For loop
+2-every element is multiplied by 2 
+3-create a temp array to store the value and push them 
+4-print our new array
+
+Filter:
+function as a parameter
+condition=> true =>condition is satisfied: it will execute the prgrm
+not satisfied=>ignore 
+arr.filter(()=>{})
+
+even odd
+
+reduce:
+reduce the entire array in an single value
+function as an parameter
+=2 parameters
+accumulator=>initital value=>1st element of that array||given value
+value=>element
+
+Syntax:
+arr.reduce((acc,element)=>{})
+

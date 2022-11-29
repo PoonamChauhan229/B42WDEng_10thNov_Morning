@@ -12,7 +12,26 @@
         create a new method -->
 
         <script>
-            
+            class Uberprice{
+                constructor(km){
+                    this.km=km,
+                    this.p=km*30
+
+                }
+                getPrice(){
+                   return `Price is ${this.p}` 
+                }
+
+                applyDiscount(){
+                  var discount=(25/this.p)*100
+                  console.log(discount)
+                  var discountedPrice=this.p-discount
+                  return` Price After Discount ${discountedPrice}`
+                }
+            }
+            var trip1=new Uberprice(2)
+            console.log(trip1.getPrice())
+            console.log(trip1.applyDiscount())
         </script>
 </body>
 </html>
