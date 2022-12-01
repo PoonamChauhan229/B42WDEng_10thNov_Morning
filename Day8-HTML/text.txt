@@ -1,0 +1,68 @@
+html:
+Hypertext markup language
+Skeleton 
+static webpages
+doesnt throw any error
+
+VS code Extensions:
+HTML CSS Support-ecmel
+HTML Snippets-Mohamed Abusaid-Depricated
+Live Server-Ritwick Dey
+vscode-icons-VSCode Icons Team
+
+
+Tags:
+surround the content and apply meaning to it.
+<>=>angular brackets
+
+Attribute:
+provides extra information about the element
+name and value
+src="./jsfile"
+
+Opening and closing tags:
+<p></p>
+
+Self closing tags
+<meta/>
+<br/>
+
+
+Element:
+Tag+content
+<b>Hello</b>=>element
+<b></b>=>Tags
+
+In details Tags:
+<p></p>
+block level
+
+Heading Tags:
+<h1></h1>
+Similarity:
+bold
+next line=>block element
+
+difference:
+font-size is different
+
+<div></div>
+Comments
+ <!-- xxxxxxxxxx-->
+
+ Table:
+ rows and clos
+ <table></table>
+
+ task:
+ Task:
+https://github.com/rvsp/HTML-CSS/blob/master/Mini-tasks/001-HTML.md
+
+
+
+
+
+
+
+
+
